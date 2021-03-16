@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import Navbar from './components/layout/Navbar';
 import Users from './components/users/Users';
+import axios from "axios";
 import './App.css';
 
 class App extends Component {
