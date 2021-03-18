@@ -22,7 +22,7 @@ class App extends Component {
     //CLEAR USERS//
     clearUsers = () => {
       this.setState({ users: [], loading: false })
-    }
+    };
     render() {  
       const { users, loading } = this.state;
     return (
