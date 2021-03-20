@@ -56,12 +56,12 @@ class App extends Component {
               <Users loading={loading} users={users}/>
             </Fragment>
           )} />
-        </Switch>
           <Route exact path='/about' component={About} />
 
           <Route exact path='/user/:login' render={props => (
             <User { ...props } getUser={this.getUser} user={user} loading={loading} />
           )} />
+        </Switch>
       </div>
       </div>
       </Router>
