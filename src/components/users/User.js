@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import Spinner from "../layout/Spinner"
+import PropTypes from 'prop-types'
+
 
 export class User extends Component {
     componentDidMount() {
